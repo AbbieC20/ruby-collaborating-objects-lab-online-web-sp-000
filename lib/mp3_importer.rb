@@ -9,10 +9,11 @@ class MP3Importer
     @path = path
   end
 
-  def filenames
+  def files
+    
   end
 
   def import
   end
-  
+
 end
