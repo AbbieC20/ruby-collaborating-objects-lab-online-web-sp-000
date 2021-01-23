@@ -11,12 +11,7 @@ class MP3Importer
 
   def files
     file_list = Dir.entries(@path)
-    if path.end_with?(".mp3")
-      .
-    end
-    return correct_format
-    #call the array i.e. path
-    #remove the end of the array which shows the directory path
+    file_list.select {|file| file.end_with? (".mp3") }
   end
 
   def import
