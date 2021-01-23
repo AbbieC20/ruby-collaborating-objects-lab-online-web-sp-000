@@ -10,10 +10,13 @@ class MP3Importer
   end
 
   def files
-    
+    #call the array i.e. path
+    #remove the end of the array which shows the directory path
   end
 
   def import
   end
 
 end
+
+#Dir.entries('./spec/fixtures/mp3s')
