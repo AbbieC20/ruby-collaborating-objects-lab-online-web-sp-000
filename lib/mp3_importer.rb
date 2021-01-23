@@ -11,10 +11,11 @@ class MP3Importer
 
   def files
     file_list = Dir.entries(@path)
-    file_list.select {|file| file.end_with? (".mp3") }
+    file_list.select {|file| file.end_with? (".mp3")}
   end
 
   def import
+
   end
 
 end
